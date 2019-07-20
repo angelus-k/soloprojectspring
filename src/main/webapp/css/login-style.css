@@ -1,0 +1,222 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button.login {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button.login:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.login-imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.login-container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/*
+$fonts: "Open Sans", Helvetica, sans-serif;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin box-shadow($top, $left, $blur, $color) {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+}
+
+::selection {
+    background-color: #b5e2e7;
+}
+
+::-moz-selection {
+    background-color: #8ac7d8;
+}
+
+body {
+    background: #f1c40f;
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+}
+
+#logbox {
+    margin: 50px auto;
+    width: 340px;
+    background-color: #fff;
+    @include border-radius(4px);
+    @include box-shadow(0, 1px, 5px, rgba(0,0,0,0.25));
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+    color: #757575;
+    font-weight: 300;
+}
+
+h1, input {
+    font-family: $fonts;
+}
+
+.input {
+    width: 75%;
+    height: 50px;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    &:focus {
+        outline: none;
+        border-bottom-color: #f1c40f !important;
+    }
+    &:hover {
+        border-bottom-color: #dcdcdc;
+    }
+    &:invalid {
+        box-shadow: none;
+    }
+}
+
+.pass:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.inputButton {
+    position: relative;
+    width: 85%;
+    height: 50px;
+    display: block;
+    margin: 30px auto 30px;
+    @include border-radius(5px);
+    color: white;
+    background-color: #f1c40f;
+    border: none;
+    @include box-shadow(0, 5px, 0, #3aad73);
+    &:hover {
+        top: 2px;
+        @include box-shadow(0, 3px, 0, #3aad73);
+    }
+    &:active {
+        top: 5px;
+        box-shadow: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+*/

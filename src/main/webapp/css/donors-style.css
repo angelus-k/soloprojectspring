@@ -1,0 +1,19 @@
+* {
+	background: darkgrey;
+}
+
+a.button {
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	text-decoration: none;
+    color: initial;
+    padding: 0.25em;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+form {
+	margin-top: 1em;
+}
